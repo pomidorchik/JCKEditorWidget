@@ -1,10 +1,10 @@
 # JCKEditorWidget
 
-Yii виджет для подключения CKEditor. Работает как со второй так и с третьей версией редактора.
+Yii виджет для подключения CKEditor. Работает как с третьей так и с четвертой версией редактора.
 
 ## Использование
 
-*   Скопируйте файл `JCKeditorWidget.php` в директорию `protected` вашего приложения, например `protected/extensions/JCKEditor/JCKeditorWidget.php`
+*   Скопируйте файл `JCKEditorWidget.php` в директорию `protected` вашего приложения, например `protected/extensions/JCKEditor/JCKEditorWidget.php`
 
 *   Подключите расширение [SmartClientScript](https://github.com/pomidorchik/SmartClientScript).   
 
@@ -21,7 +21,7 @@ Yii виджет для подключения CKEditor. Работает как
 			'height' => '200px',
 			'width' => '400px',
 			'toolbar' => 'myToolbar',
-			'path' => Yii::app()->getBaseUrl(true).'/ckeditor3/',
+			'path' => Yii::app()->getBaseUrl(true).'/ckeditor4/',
 			'config'=>array(
 				'language'=> 'ru',
 			)
